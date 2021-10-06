@@ -1,5 +1,14 @@
 public class Pizza {
 
+    public Pizza() {
+    }
+
+    public Pizza(String type, String size, Double price) {
+        this.type = type;
+        this.size = size;
+        this.price = price;
+    }
+
     private String type;
     private String size;
     private Double price;
